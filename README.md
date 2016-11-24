@@ -1,4 +1,4 @@
-## Help!
+## My question on StackExchange!
 
 I'm making a map [(you can see here)](https://micmicto.github.io/mapplugins)  with different markers and layers to group these markers. I added polygons in another layer (Poligono layer), and I want to know if exist a way to add different information on each polygons that after can be show on a popup. 
 
