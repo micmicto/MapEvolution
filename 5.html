@@ -40,11 +40,13 @@
 	<script src='js/leaflet.markercluster.js'></script>
 	<script src="js/leaflet.markercluster.layersupport-src.js"></script>
 	<script src="js/leaflet-hash.js"></script>
+	<script src="js/leaflet-gps.js"></script>
 
 	<!-- Leaflet.markercluster assets -->
     	
 	<link rel="stylesheet" href="css/MarkerCluster.css">    
 	<link rel="stylesheet" href="css/MarkerCluster.Default.css">
+	<link rel="stylesheet" href="css/leaflet-gps.css">  
 
 
 	<script>		
@@ -225,11 +227,21 @@
 		]);
         
              
-		sitios.addTo(map);
+		polygon.addTo(map);
+		
+		map.addControl(new L.Control.Gps({
+		style: {
+			weight:4,
+			radius: 25,
+			color: '#E2AE36',
+			fill: true,
+			opacity:0.8
+		}
+	}));
 		
 		L.control.layers(baseLayers, overlays).addTo(map);
 		
-	
+
 		
 	</script>
 </body>
