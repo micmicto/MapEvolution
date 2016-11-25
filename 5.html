@@ -134,13 +134,20 @@
 		{
 		color:'orange',
 		}
-		).bindPopup('<strong>La Ruta de museos en Yucatán</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(polygon),
+		).bindPopup('<strong>La Ruta de museos de Yucatán</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(polygon),
 		
 		L.polygon ([
-			[21.1425, -88.1647],
-			[21.725, -88.2647],
-			[21.3425, -88.3647], 
-		]).bindPopup('2').addTo(polygon);
+			[21.101626, -89.579716],
+			[21.025512, -89.725324],
+			[20.901942, -89.782519], 
+			[20.917348, -89.607438],
+			[20.981794, -89.551820],
+			[21.057106, -89.570016],
+		],
+		{
+		color:'yellow',
+		}
+		).bindPopup('<strong>Atractivos en Mérida</strong></br> Activa las capas de Zonas Arqueológicas, Museos y Áreas Naturales Protegidas para saber lo que hay en esta ruta').addTo(polygon);
 
 		var linea = new L.LayerGroup ();
 		
@@ -207,7 +214,7 @@
           
 			linea,
 			sitios,
-          		pueblo,
+          	pueblo,
 			hospitales,
 			casascultura,
 			museo,
