@@ -121,7 +121,7 @@
 		{
 		color:'red',
 		}
-		).bindPopup('Holi otra vez').addTo(polygon),
+		).bindPopup('1').addTo(polygon),
 				
 		L.polygon ([
 			[20.3997, -89.2844],
@@ -134,13 +134,13 @@
 		{
 		color:'orange',
 		}
-		).bindPopup('<strong>La Ruta de museos yucatecos de Mich</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(polygon),
+		).bindPopup('<strong>La Ruta de museos en Yucatán</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(polygon),
 		
 		L.polygon ([
 			[21.1425, -88.1647],
 			[21.725, -88.2647],
 			[21.3425, -88.3647], 
-		]).bindPopup('Holi polígono').addTo(polygon);
+		]).bindPopup('2').addTo(polygon);
 
 		var linea = new L.LayerGroup ();
 		
@@ -154,7 +154,7 @@
 		{
 		color:'green',
 		}
-		).bindPopup('<strong>La Ruta Maya de Mich</strong></br>Activa las capas de Zonas Arqueológicas y Museos para saber lo que hay en esta ruta').addTo(linea);
+		).bindPopup('<strong>La Ruta Maya</strong></br>Activa las capas de Zonas Arqueológicas y Museos para saber lo que hay en esta ruta').addTo(linea);
 		L.polyline ([
 			[20.3997, -89.2844],
 			[20.5481, -88.8272],
@@ -165,7 +165,7 @@
 		{
 		color:'purple',
 		}
-		).bindPopup('<strong>La Ruta de museos yucatecos de Mich</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(linea);
+		).bindPopup('<strong>La Ruta de museos de Yucatán</strong></br>Activa la capa de Museos para saber lo que hay en esta ruta').addTo(linea);
 		
 		var mbAttr = '' +
 				'<a href=""> </a>' +
