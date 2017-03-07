@@ -70,75 +70,7 @@
 			return new L.Icon(options);
 		};
 
-		
-		var sitios = new L. LayerGroup();
-		
-		L.marker([20.947984, -89.762475], {icon:tiloIcon}).bindPopup('<p><strong><center>	Oxcum</center></strong><br>	<strong>Cultura</strong> <br />No determinada<br/> <strong>Descripción</strong><br />Este sitio corresponde a un conjunto de montículos clasificados por Silvia Garza Tarazona González y Edward B. Kurjack en el Atlas Arqueológico del Estado de Yucatán.<br /></p>').addTo(sitios),
-		L.marker([20.541, -88.663], {icon:tiloIcon}).bindPopup('<p><strong><center>		Yaxuná</center></strong><br>	<strong>Cultura</strong> <br />Maya <br/> <strong>Descripción</strong><br />El sitio de Yaxuná se destaca por su arquitectura monumental en estilo Puuc y la presencia del sacbé más largo de toda el área maya. Muy cerca de Yaxuná se encuentra el cenote Lol-Ha, que sorprende a cualquiera por su majestuosidad y belleza.<br /></p>').addTo(sitios),
-		L.marker([20.572997, -88.730264], {icon:tiloIcon}).bindPopup('<p><strong><center>	Chechemi</center></strong><br>	<strong>Cultura</strong> <br />Maya<br/> <strong>Descripción</strong><br />  Es un sitio pequeño donde han sido encontrados restos de cerámica y concha. La mayoría de los tepalcates hallados en la zona corresponden al Clásico Tardío, sin embargo, también se han encontrado tepalcates que datan del PreclásicoTardío, el Clásico Terminal y uno del Posclásico Tardío en la superficie. <br /></p>').addTo(sitios);
-		
-		var areasnaturales = new L.LayerGroup();
-		
-		L.marker([21.088624,-89.597455], {icon: naturalesIcon}).bindPopup('Dzibilchantún').addTo(areasnaturales),
-		L.marker([21.580311,-87.9396], {icon: naturalesIcon}).bindPopup('Playa Río Lagartos').addTo(areasnaturales),
-		L.marker([21.517372,-87.827473], {icon: naturalesIcon}).bindPopup('Río Lagartos').addTo(areasnaturales);
-		
-		var pueblo = new L.LayerGroup();
 
-		L.marker([20.9330, -89.0178], {icon: puebloIcon}).bindPopup('Izamal').addTo(pueblo),
-		L.marker([20.6909, -88.2015], {icon: puebloIcon}).bindPopup('Valladolid').addTo(pueblo);
-
-		var museo = new L.LayerGroup();
-		
-		L.marker([20.6894, -88.2017], {icon: museoIcon}).bindPopup('<p><strong><center>Museo Comunitario Xtepén Aak</center></strong><br><strong>Estado</strong><br>Yucatán<strong><br>Municipio</strong><br>Valladolid<strong><br>Dirección</strong><br>Domicilio conocido s/n Loc. Yaxché. Colonia Centro.</p>').addTo(museo),
-		L.marker([21.1425, -88.1647], {icon: museoIcon}).bindPopup('<p><strong><center>Museo Comunitario Ceiba y Amapola</center></strong><br><strong>Estado</strong><br>Yucatán<strong><br>Municipio</strong><br>Tizimín<strong><br>Dirección</strong><br>Calle 31 s/n por 30 Loc. Yaxchekú. Colonia Centro.</p>').addTo(museo),
-		L.marker([20.8592, -90.4], {icon: museoIcon}).bindPopup('<p><strong><center>Museo Comunitario de Celestún</center></strong><br><strong>Estado</strong><br>Yucatán<strong><br>Municipio</strong><br>Celestún<strong><br>Dirección</strong><br>Calle 12 núm. 98 entre 15 y 17. Colonia Centro.</p>').addTo(museo);
-		
-		var casascultura = new L.LayerGroup();
-		
-		L.marker([20.2411,-98.2119], {icon:casascIcon}).bindPopup('<p><strong><center>Casa de la Cultura Richar Honey</center></strong><br><strong>Estado</strong><br>Puebla<strong><br>Municipio</strong><br>Honey<strong><br>Dirección</strong><br>Calle Estación del Ferrocarril s/n.</p>').addTo(casascultura),
-		L.marker([30.625505,-110.970089], {icon:casascIcon}).bindPopup('<p><strong><center>Casa de Cultura de Magdalena de Kino</center></strong><br><strong>Estado</strong><br>Sonora<strong><br>Municipio</strong><br>Magdalena<strong><br>Dirección</strong><br>Hidalgo 119, frente a plaza monumental. Colonia Centro.</p>').addTo(casascultura),
-		L.marker([21.880832,-102.296111], {icon:casascIcon}).bindPopup('<p><strong><center>Centro Cultural ISSSTE Aguascalientes</center></strong><br><strong>Estado</strong><br>Aguascalientes<strong><br>Municipio</strong><br>Aguascalientes<strong><br>Dirección</strong><br>Calle Jesús F. Contreras 123. Barrio de San Marcos.</p>').addTo(casascultura);
-		
-		var hospitales = new L.LayerGroup();
-		
-		L.marker ([20.634146, -88.215022], {icon:hospitalIcon}).bindPopup('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor, orci at finibus varius, lectus libero pulvinar neque, sit amet ultrices tellus urna sit amet quam. Suspendisse potenti. Integer in ligula dolor. Maecenas ac rutrum dui, vel consequat lacus. Nulla tincidunt interdum massa, a auctor justo posuere nec. ').addTo(hospitales);
-		L.marker ([21.017697, -89.641353], {icon:hospitalIcon}).bindPopup('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor, orci at finibus varius, lectus libero pulvinar neque, sit amet ultrices tellus urna sit amet quam. Suspendisse potenti. Integer in ligula dolor. Maecenas ac rutrum dui, vel consequat lacus. Nulla tincidunt interdum massa, a auctor justo posuere nec. ').addTo(hospitales);
-		L.marker ([20.940761, -89.604274], {icon:hospitalIcon}).bindPopup('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor, orci at finibus varius, lectus libero pulvinar neque, sit amet ultrices tellus urna sit amet quam. Suspendisse potenti. Integer in ligula dolor. Maecenas ac rutrum dui, vel consequat lacus. Nulla tincidunt interdum massa, a auctor justo posuere nec. ').addTo(hospitales);
-
-		var polygon = new L.LayerGroup ();
-		
-		L.polygon ([
-			[20.6894, -88.2017],
-			[20.572997, -88.730264],
-			[20.3457, -88.1677], 
-		]).bindPopup('Holi otra vez').addTo(polygon),
-		
-		L.polygon ([
-			[20.72, -88.14],
-			[20.45, -88.32],
-			[20.52, -88.52]
-		]).bindPopup('Holi una vez más!!').addTo(polygon),
-		
-		L.polygon ([
-			[21.1425, -88.1647],
-			[21.725, -88.2647],
-			[21.3425, -88.3647], 
-		]).bindPopup('Holi polígono').addTo(polygon);
-		
-		var linea = new L.LayerGroup ();
-		
-		L.polyline ([
-			[20.947984, -89.762475],
-			[21.0326, -89.6302],
-			[20.572997, -88.730264],
-			[20.541, -88.663], 
-		]).bindPopup('La Ruta Maya de Mich').addTo(linea),
-		L.marker([20.947984, -89.762475], {icon:lineaIcon}).bindPopup('<p><strong><center>	Oxcum</center></strong><br>	<strong>Cultura</strong> <br />No determinada<br/> <strong>Descripción</strong><br />Este sitio corresponde a un conjunto de montículos clasificados por Silvia Garza Tarazona González y Edward B. Kurjack en el Atlas Arqueológico del Estado de Yucatán.<br /></p>').addTo(linea),
-		L.marker([20.541, -88.663], {icon:lineaIcon}).bindPopup('<p><strong><center>		Yaxuná</center></strong><br>	<strong>Cultura</strong> <br />Maya <br/> <strong>Descripción</strong><br />El sitio de Yaxuná se destaca por su arquitectura monumental en estilo Puuc y la presencia del sacbé más largo de toda el área maya. Muy cerca de Yaxuná se encuentra el cenote Lol-Ha, que sorprende a cualquiera por su majestuosidad y belleza.<br /></p>').addTo(linea),
-		L.marker([21.0326, -89.6302], {icon: lineaIcon}).bindPopup('<p><strong><center>Gran Museo del Mundo Maya</center></strong><br><strong>Estado</strong><br>Yucatán<strong><br>Municipio</strong><br>Mérida<strong><br>Dirección</strong><br>Calle 60 Norte 299 E. Colonia Unidad Revolución Cordemex.</p>').addTo(linea),
-		L.marker([20.572997, -88.730264], {icon:lineaIcon}).bindPopup('<p><strong><center>	Chechemi</center></strong><br>	<strong>Cultura</strong> <br />Maya<br/> <strong>Descripción</strong><br />  Es un sitio pequeño donde han sido encontrados restos de cerámica y concha. La mayoría de los tepalcates hallados en la zona corresponden al Clásico Tardío, sin embargo, también se han encontrado tepalcates que datan del PreclásicoTardío, el Clásico Terminal y uno del Posclásico Tardío en la superficie. <br /></p>').addTo(linea);		
-		
 		$.getJSON("rodents.geojson",function(data){
 		    // add GeoJSON layer to the map once the file is loaded
 		    L.geoJson(data).addTo(map);
