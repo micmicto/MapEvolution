@@ -25,12 +25,6 @@
       minZoom: 9
     }).addTo(map);
 
-  // load GeoJSON from an external file
-  $.getJSON("rodents.geojson",function(data){
-    // add GeoJSON layer to the map once the file is loaded
-    L.geoJson(data).addTo(map);
-  });
-
   </script>
 </body>
 </html>
