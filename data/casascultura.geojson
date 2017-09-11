@@ -1,0 +1,2613 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Café 22",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Fernando Montes de Oca 22. Colonia Condesa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.144444,
+          19.443056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Comunitario Culhuacán Ex Convento de San Juan Evangelista",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Iztapalapa",
+        "DIRECCION": "Calle Morelos 10. Colonia Culhuacán."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.107998,
+          19.339613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Periodista",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Benito Juárez",
+        "DIRECCION": "Calle Lázaro Cárdenas 912. Colonia 2da. del Periodista."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.158333,
+          19.401666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa Frissac",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Tlalpan",
+        "DIRECCION": "Calle Plaza de la Constitución s/n esq. Moneda. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.225,
+          19.308333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Desarrollo Social y Cultural Paco Taibo II",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Gustavo A. Madero",
+        "DIRECCION": "Av. 414 s/n esq. Av. 485. Colonia Unidad Habitacional San Juan de Aragón VII sección."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.112499,
+          19.482222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura México-Japonesa",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Álvaro Obregón",
+        "DIRECCION": "Calle Fujiyama 144. Colonia Las Águilas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2,
+          19.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Carranza",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Venustiano Carranza",
+        "DIRECCION": "Calle Lázaro Pavia 226. Colonia Jardín Balbuena."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.113889,
+          19.416666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Rafael Solana del IMSS",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Gustavo A. Madero",
+        "DIRECCION": "Av. Instituto Politécnico Nacional s/n esq. Eje Fortuna. Colonia Magdalena de las Salinas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.134,
+          19.4862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Arte y Cultura Futurama",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Gustavo A. Madero",
+        "DIRECCION": "Av. Instituto Politécnico Nacional esq. Av. Otavalo s/n. Colonia Lindavista."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1334,
+          19.4933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Universitario Tlatelolco (CCUT)",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Eje Central Lázaro Cárdenas esq. Ricardo Flores Magón. Colonia Guerrero."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1371,
+          19.4499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Jaime Torres Bodet",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Gustavo A. Madero",
+        "DIRECCION": "Av. Wilfrido Massieu esq. Av. Instituto Politécnico Nacional (IPN) Unidad Adolfo López Mateos. Colonia Lindavista."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1353,
+          19.4962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura Quinta Colorada",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Miguel Hidalgo",
+        "DIRECCION": "Calle Pedro Antonio de los Santos s/n esq. Av. Constituyentes. Colonia 1a. Sección del bosque de Chapultepec."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1812,
+          19.4183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural ISSSTE Aguascalientes",
+        "ESTADO": "Aguascalientes",
+        "MUNICIPIO": "Aguascalientes",
+        "DIRECCION": "Calle Jesús F. Contreras 123. Barrio de San Marcos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.296111,
+          21.880832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Cosío",
+        "ESTADO": "Aguascalientes",
+        "MUNICIPIO": "Cosío",
+        "DIRECCION": "Calle Madero s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.299722,
+          22.367777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural San Felipe",
+        "ESTADO": "Baja California",
+        "MUNICIPIO": "Mexicali",
+        "DIRECCION": "Calz. Chetumal s/n. Colonia Localidad San Felipe."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.835278,
+          31.027499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Calkiní",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Calkiní",
+        "DIRECCION": "Calle 20 núm. 90. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0503,
+          20.3726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Hecelchakán",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Hecelchakán",
+        "DIRECCION": "Calle 20 s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1339,
+          20.1769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Tenabo",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Tenabo",
+        "DIRECCION": "Calle 10 s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2253,
+          20.0397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Los Chenes",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Hopelchén",
+        "DIRECCION": "Calle 23 núm. 28 entre 22 y 24. 90. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.845,
+          19.7447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Casa 6",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Campeche",
+        "DIRECCION": "Calle 57 núm. 6, entre calle 8 y calle 10. Colonia Centro. San Francisco de Campeche."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.537282,
+          19.845517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural El Claustro",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Campeche",
+        "DIRECCION": "Calle 12 núm. 173 , entre calle 59 y calle 61. Colonia Centro. San Francisco de Campeche."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.537701,
+          19.844045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Cultura Infantil La Chácara",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Campeche",
+        "DIRECCION": "Calle Calle 12 núm. 172. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.538598,
+          19.843747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Carmen",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Carmen",
+        "DIRECCION": "Calle 24 núm. 34 y 36, entre Calle 27 y Calle 29. Colonia Centro Histórico. Carmen."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.833698,
+          18.636185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural y Deportivo Club Petrolero Mexicano",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Carmen",
+        "DIRECCION": "Calle Batab núm. 300 Int. 24. Colonia Pemex II."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.823769,
+          18.645344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura Ing. Humberto Manuel Cahuich Jesús",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Escárcega",
+        "DIRECCION": "Calle 22, entre Calle 41 y Calle 43. Colonia Morelos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.738885,
+          18.601293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura del Municipio de Palizada",
+        "ESTADO": "Campeche",
+        "MUNICIPIO": "Palizada",
+        "DIRECCION": "Calle Degollado s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.09353292,
+          18.2545072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Tecomán",
+        "ESTADO": "Colima",
+        "MUNICIPIO": "Tecomán",
+        "DIRECCION": "Av. Insurgentes 1000. Colonia Tecomán."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.88423,
+          18.926205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Minatitlán",
+        "ESTADO": "Colima",
+        "MUNICIPIO": "Minatitlán",
+        "DIRECCION": "Calle Parque Central Porfirio Gaitán Nuñez. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.050833,
+          19.386666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Motozintla",
+        "ESTADO": "Chiapas",
+        "MUNICIPIO": "Motozintla",
+        "DIRECCION": "Calle Central Ote. 1. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.248275,
+          15.36375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura Tuzantán",
+        "ESTADO": "Chiapas",
+        "MUNICIPIO": "Tuzantán",
+        "DIRECCION": "Calle Abasolo s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.422222,
+          15.145833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Sala de Cultura Km. 99",
+        "ESTADO": "Chihuahua",
+        "MUNICIPIO": "Rosales",
+        "DIRECCION": "Domicilio Conocido Km. 99. Colonia Kilómetro 99."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.58,
+          28.126944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Cancún",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Benito Juárez",
+        "DIRECCION": "Av. Yaxchilán s/n. Colonia Supermanzana 21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8334,
+          21.1525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Isla Mujeres",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Isla Mujeres",
+        "DIRECCION": "Av. Guerrero esq. Abasolo s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7317,
+          21.2322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Kantunilkín",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Lázaro Cárdenas",
+        "DIRECCION": "Calle Lázaro Cárdenas s/n, esq. Javier Rojo Gómez y Rafael E. Melgar. Colonia Kantunilkin Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4878,
+          21.1028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Cultura Italiana de Playa del Carmen",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Solidaridad",
+        "DIRECCION": "Calle 26 casi esq. Av.10. Colonia Quintas del Carmen."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0811,
+          20.6275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Cozumel",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Cozumel",
+        "DIRECCION": "50 Av. entre Benito Juárez y 2 Nte. Colonia 10 de Abril."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9417,
+          20.5167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de José María Morelos",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "José María Morelos",
+        "DIRECCION": "Calle Cobá s/n, entre X-Cabil y Vicente Guerrero. Colonia Santa Lucía."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7125,
+          19.7461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Chunhuhub",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Felipe Carrillo Puerto",
+        "DIRECCION": "Domicilio conocido. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5917,
+          19.5847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Felipe Carrillo Puerto",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Felipe Carrillo Puerto",
+        "DIRECCION": "Calle 68 núm. 759. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0453,
+          19.5786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Bacalar",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blanco",
+        "DIRECCION": "Calle 26 entre Av. 5 y 7 núm. 317. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3953,
+          18.6769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Calderitas",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blanco",
+        "DIRECCION": "Oaxaca s/n esq. 24 de Febrero. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2583,
+          18.5544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de las Bellas Artes",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blanco",
+        "DIRECCION": "Av. Héroes 68 esq. Héroes de Chapultepec. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.296244,
+          18.501385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Chetumal",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blanco",
+        "DIRECCION": "Av. Efraín Aguilar 361. Colonia Camprestre."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3053,
+          18.5036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Tulum",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Solidaridad",
+        "DIRECCION": "Neptuno s/n entre Alfa y Osiris. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.462499,
+          20.208479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de Playa del Carmen",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Solidaridad",
+        "DIRECCION": "Av. 20 Nte. 101 entre 8 y 10 Nte. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.075552,
+          20.627942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural La Ceiba",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Solidaridad",
+        "DIRECCION": "Calle 1ra Sur esq. Diagonal 60. Colonia. Ejidal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.08676,
+          20.628046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa Internacional del Escritor",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blaco",
+        "DIRECCION": "Av. 3 s/n entre 8 y 10. Colonia Magisterial."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.392676,
+          18.67092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural del ISSSTE Q. Roo",
+        "ESTADO": "Quintana Roo",
+        "MUNICIPIO": "Othón P. Blanco",
+        "DIRECCION": "Av. Rafael E. Melgar 54 entre Av. Álvaro Obregón y Othón P. Blanco. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.305333,
+          18.497163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de San Felipe",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "San Felipe",
+        "DIRECCION": "Calle 9, frente al malecón."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2311,
+          21.5672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Río Lagartos",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Río Lagartos",
+        "DIRECCION": "Calle 12 s/n por 13 y 17. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.158,
+          21.5978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de Maxcanú",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Maxcanú",
+        "DIRECCION": "Calle 20 s/n esq. Calle 15Ex Estación del Ferrocarril. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0008,
+          20.5831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Halachó",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Halachó",
+        "DIRECCION": "Calle 21 entre 16 y 14. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0819,
+          20.4764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Opichén",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Opichén",
+        "DIRECCION": "Calle 20 entre 19 y 21. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8562,
+          20.5507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Acanceh",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Acanceh",
+        "DIRECCION": "Calle 22 s/n entre calles 21 y 23, Altos del Palacio Municipal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4538,
+          20.813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Tecoh",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Tecoh",
+        "DIRECCION": "Palacio Municipal. Calle 30 núm. 96 entre 27 y 29. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4743,
+          20.7417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Ticul",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Ticul",
+        "DIRECCION": "Calle 21 entre 24 y 26. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5343,
+          20.3988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural siglo XXI de Oxkutzcab",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Oxkutzcab",
+        "DIRECCION": "Calle 45 entre 52 y 54."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4189,
+          20.3076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Akil",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Akil",
+        "DIRECCION": "Calle 20 Ex-estación del tren. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3469,
+          20.2671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Izamal",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Izamal",
+        "DIRECCION": "Calle 30 núm. 268 entre 25 y 27. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0187,
+          20.9358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Umán",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Umán",
+        "DIRECCION": "Calle 27 entre 12 y 14. Colonia Santa Cruz."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.75,
+          20.8833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Superación Integral Nora Quintana",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 140 núm. 511 entre 61 y 61A. Fraccionamiento Nora Quintana."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6729,
+          20.9925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Ricardo López Méndez",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 49 núm. 260 entre 46 y 48. Unidad Habitacional Cordemex."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6268,
+          21.0369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura del Mayab Leopoldo Peniche Vallado",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 63 núm. 503-A entre 64 y 66. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.626808,
+          20.967029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural ISSSTE Progreso",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Progreso",
+        "DIRECCION": "Calle 30 s/n entre 31 y 33. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.663,
+          21.2859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Progreso",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Progreso",
+        "DIRECCION": "Calle 25 por 80. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.663,
+          21.286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Telchac Puerto",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Telchac Puerto",
+        "DIRECCION": "Calle 20. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2631,
+          21.3406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Espacio de Desarrollo Cultural de Dzemul",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzemul",
+        "DIRECCION": "Calle 20 entre 11 y 9, Carretera San Diego Guerra."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3089,
+          21.2103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Sinanché",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Sinanché",
+        "DIRECCION": "Calle 21 s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1857,
+          21.2256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Pepe Domínguez",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzidzantún",
+        "DIRECCION": "Palacio Municipal Calle 21 s/n entre 18 y 20. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.043,
+          21.2467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural San Francisco Tzacalha",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzidzantún",
+        "DIRECCION": "Antiguo Hospital de la Hacienda San Francisco s/n."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0263,
+          21.2514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Dzilam González",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzilam González",
+        "DIRECCION": "Calle 21 s/n entre 20 y 22. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9297,
+          21.2802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Dzilam de Bravo",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzilam de Bravo",
+        "DIRECCION": "Domicilio conocido. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.892,
+          21.3932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Dzoncauich",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Dzoncauich",
+        "DIRECCION": "Calle 18 s/n entre 21 y 23."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8906,
+          21.1278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa del Artista de Buctzotz",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Buctzotz",
+        "DIRECCION": "Calle 18 por calles 15 y 17. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7928,
+          21.2017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Municipal de Buctzotz",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Buctzotz",
+        "DIRECCION": "Calle 22 s/n por calles 21 y 19, Palacio Municipal. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7945,
+          21.202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Motul",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Motul",
+        "DIRECCION": "Calle 24 entre 29 y 29 A. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2831,
+          21.095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Cultura Prohispen",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 19 núm. 94 entre 18 y 20. Colonia México."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6096,
+          21.003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Dante",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Prolongación Paseo de Montejo 138-B por 17. Colonia Itzimná."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6163,
+          20.9945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural José Martí",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Av. Colón esq. calle 20. Colonia García Ginerés."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.633,
+          20.9876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Mérida del ISSSTE",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 5-A entre 38-A y 40. Fraccionamiento Fovissste Pensiones."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.64,
+          20.9953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural y Recreativo La Ibérica",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 37 núm. 526 entre 74 y 74-A. Colonia García Ginerés."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6276,
+          20.9824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Música José Jacinto Cuevas (CEMUS)",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 37 núm. 526 por 74 y 74-A. Colonia García Gineres."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6276,
+          20.9824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Artes Visuales",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 60 núm. 411 entre 45 y 47. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6215,
+          20.9764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Unas Letras Industria Cultural",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 56 núm. 465 entre 53 y 55. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6198,
+          20.9716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Municipal de Danza",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 62 núm. 466 entre 55 y 57. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6235,
+          20.9706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Universitario",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 60 por 57 y 59. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6227,
+          20.9693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Olimpo",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 62 por 61. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6243,
+          20.9676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Poder Jóven (SEJUVE)",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 66 núm. 503 entre 63 y 61. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.627,
+          20.9678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Superación Integral Carlos Castillo Peraza",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Ex-casa del Molinero. Calle 93 núm. 557 entre 76 y 68. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6374,
+          20.9507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Superación Integral Amapola",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 105 núm. 541 entre 64 y 66. Colonia Melitón Salazar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6413,
+          20.9417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Superación Integral Sara Mena de Correa",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 57 por 46. Fraccionamiento Fidel Velázquez."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5767,
+          20.9686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Casa Mata",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 12 entre 63-D y 61-A. Colonia Cortés Sarmiento."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.596,
+          20.9599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Carlos Acereto",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 40-a núm. 485 entre 38 y 40. Centro Suburbio de Chen bech."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6095,
+          20.9697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de Wallis",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 33 entre 14 y 16. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5973,
+          20.9673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Iniciación Musical Infantil",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 59 núm. 424-A entre 48 y 50. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6157,
+          20.9675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Juan Acereto",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 59 núm. 426 esq. 50. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6164,
+          20.9676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Cholul",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Mérida",
+        "DIRECCION": "Calle 21 entre 20 y 22. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.557,
+          21.0429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Tixpéual",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Tixpéhual",
+        "DIRECCION": "Calle 20 por 19, a un costado del Palacio Municipal. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4422,
+          20.9786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Cecijema",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Tinum",
+        "DIRECCION": "Calle 15-A núm. 40. Colonia Centro, Pisté."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5839,
+          20.6944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Valladolid",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Valladolid",
+        "DIRECCION": "Calle 40 núm. 200 entre 39 y 41. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.201,
+          20.6899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Sucilá",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Sucilá",
+        "DIRECCION": "Calle 23 entre 20 y 22. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.3136,
+          21.1544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural ISSSTE Tizimín",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Tizimín",
+        "DIRECCION": "Calle 48 B Núm. 353 entre 43."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1647,
+          21.1425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Panabá",
+        "ESTADO": "Yucatán",
+        "MUNICIPIO": "Panabá",
+        "DIRECCION": "Calle 25 entre 18 y 20. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2706,
+          21.2964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Richar Honey",
+        "ESTADO": "Puebla",
+        "MUNICIPIO": "Honey",
+        "DIRECCION": "Calle Estación del Ferrocarril s/n."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2119,
+          20.2411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Magdalena de Kino",
+        "ESTADO": "Sonora",
+        "MUNICIPIO": "Magdalena",
+        "DIRECCION": "Hidalgo 119, frente a plaza monumental. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.970089,
+          30.625505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Zapotlanejo",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Zapotlanejo",
+        "DIRECCION": "Calle Porfirio Díaz 40. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.064167,
+          20.6225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura Joaquín Arcadio Pagaza",
+        "ESTADO": "México",
+        "MUNICIPIO": "Ixtapan del Oro",
+        "DIRECCION": "Calle Camino al Salto s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.262778,
+          19.261389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Profresor Moisés Sáenz Garza",
+        "ESTADO": "Nuevo León",
+        "MUNICIPIO": "Apodaca",
+        "DIRECCION": "Calle Padre Mier s/n esq. Garza García. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.18508,
+          25.780078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Unión de Tula",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Unión de Tula",
+        "DIRECCION": "Av. México 420 Nte. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.264444,
+          19.954444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Ópera Angelopolitana",
+        "ESTADO": "Puebla",
+        "MUNICIPIO": "Puebla",
+        "DIRECCION": "Av. 2 Oriente 211. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1975,
+          19.045278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Acayuca",
+        "ESTADO": "Hidalgo",
+        "MUNICIPIO": "Zapotlán de Juárez",
+        "DIRECCION": "Plaza Principal s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.841389,
+          20.030278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Villa Alta",
+        "ESTADO": "Oaxaca",
+        "MUNICIPIO": "San Ildefonso Villa Alta",
+        "DIRECCION": "Domicilio conocido"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.151388,
+          17.337499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Altamira",
+        "ESTADO": "Tamaulipas",
+        "MUNICIPIO": "Altamira",
+        "DIRECCION": "Calle Quintero 100 esq. Hidalgo. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.936944,
+          22.395833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Tancanhuitz de Santos",
+        "ESTADO": "San Luis Potosí",
+        "MUNICIPIO": "Tancanhuitz",
+        "DIRECCION": "Calle Plaza Principal s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.966667,
+          21.595555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Xochipatli",
+        "ESTADO": "Puebla",
+        "MUNICIPIO": "Chignautla",
+        "DIRECCION": "Calle Hidalgo 411. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.388055,
+          19.814444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura María Sabina",
+        "ESTADO": "Oaxaca",
+        "MUNICIPIO": "Huautla de Jiménez",
+        "DIRECCION": "Calle Abelardo L. Rodríguez s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.843056,
+          18.130556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Santo Domingo",
+        "ESTADO": "Oaxaca",
+        "MUNICIPIO": "Oaxaca de Juárez",
+        "DIRECCION": "Calle Macedonio Alcalá s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.722774,
+          17.066344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Contry",
+        "ESTADO": "Nuevo León",
+        "MUNICIPIO": "Guadalupe",
+        "DIRECCION": "Av. Las Américas esq. Puente Solidaridad. Colonia Contry La Silla."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.268211,
+          25.647203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura Dr. Enrique González Martínez",
+        "ESTADO": "Sinaloa",
+        "MUNICIPIO": "Mocorito",
+        "DIRECCION": "Calle Morelos 15. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.921111,
+          25.482778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de Tepechitlán J. Salome de León Salcedo",
+        "ESTADO": "Zacatecas",
+        "MUNICIPIO": "Tepechitlán",
+        "DIRECCION": "Calle Cuauhtémoc 12 Nte. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.323889,
+          21.671111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Alianza Francesa de Toluca",
+        "ESTADO": "México",
+        "MUNICIPIO": "Toluca",
+        "DIRECCION": "Calle Aquiles Serdán 111. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.65936690568924,
+          19.29164359691564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Sala de Exposiciones del CEDECO",
+        "ESTADO": "Nuevo León",
+        "MUNICIPIO": "Aramberri",
+        "DIRECCION": "Calle Ignacio Zaragoza s/n esq. Garza Ayala. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.816555,
+          24.099527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Colotlán",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Colotlán",
+        "DIRECCION": "Calle Nicolás Bravo 29. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.264722,
+          22.117221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Municipal",
+        "ESTADO": "Tamaulipas",
+        "MUNICIPIO": "Ciudad Madero",
+        "DIRECCION": "Av. Álvaro Obregón 201, Sur. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.837058,
+          22.246235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Mitla",
+        "ESTADO": "Oaxaca",
+        "MUNICIPIO": "San Pablo Villa de Mitla",
+        "DIRECCION": "Calle Independencia esq. Av. 5 de Febrero. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.361667,
+          16.920833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Cerritos",
+        "ESTADO": "San Luis Potosí",
+        "MUNICIPIO": "Cerritos",
+        "DIRECCION": "Calle Plaza Morelos s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.278333,
+          22.4275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Complejo Cultural Universitario",
+        "ESTADO": "Puebla",
+        "MUNICIPIO": "San Andrés Cholula",
+        "DIRECCION": "Vía Atlixcáyotl 2499. Colonia La Vista."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.241999,
+          19.018015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de San Miguel de Allende",
+        "ESTADO": "Guanajuato",
+        "MUNICIPIO": "San Miguel de Allende",
+        "DIRECCION": "Calle Bajada del Chorro 4. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.743889,
+          20.915277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Técpan de Galeana",
+        "ESTADO": "Guerrero",
+        "MUNICIPIO": "Técpan de Galeana",
+        "DIRECCION": "Calle José Solís Romero 1. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.63,
+          17.213888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Mezquitic",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Mezquitic",
+        "DIRECCION": "Calle 5 de Mayo 2. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.728056,
+          22.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Ixhuacán de los Reyes",
+        "ESTADO": "Veracruz",
+        "MUNICIPIO": "Ixhuacán de los Reyes",
+        "DIRECCION": "Calle Nicolás Bravo s/n esq. María Luisa Flores. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.114167,
+          19.355278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Explanada Centro Cultural Hacienda de Oblatos",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Guadalajara",
+        "DIRECCION": "Calle San Pedro 2919-A. Colonia Oblatos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.293935,
+          20.684345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural ISSSTE Saltillo",
+        "ESTADO": "Coahuila",
+        "MUNICIPIO": "Saltillo",
+        "DIRECCION": "Calle Victoria 654. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.991886,
+          25.423378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura José Donaciano Morales y Mier Altamirano",
+        "ESTADO": "México",
+        "MUNICIPIO": "Ixtlahuaca",
+        "DIRECCION": "Plaza Rayón s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.766944,
+          19.568889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Cocula",
+        "ESTADO": "Jalisco",
+        "MUNICIPIO": "Cocula",
+        "DIRECCION": "Calle Ocampo 94. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.822286,
+          20.367566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Adolfo López Mateos del ISSSTE",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Eje Central Lázaro Cárdenas 402 edif. 11 P.B. esq. Flores Magón. Colonia Nonoalco-Tlatelolco."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.13919806480406,
+          19.45060637397901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de la SHCP",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Av. Hidalgo 81. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14520621299744,
+          19.43731018016071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Foro Cultural Chapultepec",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Miguel Hidalgo",
+        "DIRECCION": "Calzada General Mariano Escobedo 665. Colonia Anzures."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.17899131774902,
+          19.425133482727343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural del Bosque",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Miguel Hidalgo",
+        "DIRECCION": "Reforma s/n esq. Campo Marte. Ex Escuela de Arte Teatral. Colonia Chapultepec Polanco."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.19491291046141,
+          19.423205969999895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Poniente del ISSSTE",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Miguel Hidalgo",
+        "DIRECCION": "Calle General José Morán 81 esq. Rafael Rebollar. Colonia San Miguel Chapultepec."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1879,
+          19.409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Lectura Condesa",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Nuevo León 91. Colonia Condesa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1724,
+          19.412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura Jesús Romero Flores",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Culiacán 103 esq. Tehuantepec. Colonia Hipódromo Condesa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.17028486728668,
+          19.40364118125584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de la Diversidad",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Colima 267. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1642,
+          19.4188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa Universitaria del Libro",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Orizaba 24 esq. Puebla. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1608,
+          19.423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Xavier Villaurrutia",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Av. Insurgentes Centro (Glorieta del Metro Insurgentes). Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.163,
+          19.424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Ateneo Español de México, A.C.",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Hamburgo 6 esq. Berlín. Colonia Juárez."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1582,
+          19.4292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Border",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Zacatecas 43. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1563,
+          19.4164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de la India en México",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Chihuahua 79 esq. Córdoba. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1584,
+          19.4176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Cultura Casa Lamm",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Álvaro Obregón 99. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.15911078453064,
+          19.418172069095156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Buzón del Arte",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Callejón Romita 8. Colonia Roma."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1546,
+          19.4234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de Cultura de Tamaulipas",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Ernesto Pugibet 73. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1479,
+          19.4303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de la Imagen",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Plaza de la Ciudadela 2. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1488,
+          19.4293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro de Espectáculos Plaza",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Av. de la República 127-A. Colonia Tabacalera."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1506,
+          19.4358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Tepeticpac Tlahtolcalli",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Doctor Mora 5. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1464,
+          19.4361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural del México Contemporáneo",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Leandro Valle 20. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.134,
+          19.4394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural de España en México",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Guatemala 18. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.13290828466415,
+          19.43510205165611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Teatro del Pueblo",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle República de Venezuela 72. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.12840753793716,
+          19.437102774179227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Casa Talavera",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle Talavera 20 esq. República de El Salvador. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1275,
+          19.4283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "La Casa del Cine",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "Calle República de Uruguay 52 entre Isabel la Católica y Bolívar. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1373,
+          19.4308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural ALIAC",
+        "ESTADO": "Ciudad de México",
+        "MUNICIPIO": "Cuauhtémoc",
+        "DIRECCION": "República de El Salvador 60. Colonia Centro Histórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.138,
+          19.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Tecate CECUTEC",
+        "ESTADO": "Baja California",
+        "MUNICIPIO": "Tecate",
+        "DIRECCION": "Calle Tláloc 400. Colonia Cuauhtémoc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.618843,
+          32.570314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Casa de la Cultura de Reynosa",
+        "ESTADO": "Tamaulipas",
+        "MUNICIPIO": "Reynosa",
+        "DIRECCION": "Calle Zaragoza s/n esq. Bertha G. de Garza Zamora. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.276498,
+          26.09333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Centro Cultural Profesor Néstor Agúndez Martínez",
+        "ESTADO": "Baja California Sur",
+        "MUNICIPIO": "La Paz",
+        "DIRECCION": "Calle Benito Juárez s/n. Colonia Centro."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.22345632314682,
+          23.450901765287046
+        ]
+      }
+    }
+  ]
+}

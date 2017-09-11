@@ -46,7 +46,7 @@ L.Control.Gps = L.Control.extend({
 		},
 		marker: null,			//L.Marker used for location, default use a L.CircleMarker
 		accuracy: true,		//show accuracy Circle
-		title: 'Center map on your location',
+		title: 'Centrar el mapa en tu posición',
 		position: 'topleft',
 		transform: function(latlng) { return latlng },
 		setView: false
