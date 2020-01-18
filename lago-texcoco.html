@@ -118,10 +118,147 @@
 			  }
 			}).addTo(privados);
 		  });
+		
+		var desaparecidos = new L.LayerGroup();
+		$.getJSON("data/desaparecidos.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: lutoIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(desaparecidos);
+		  });
+		
+		var noabiertos = new L.LayerGroup();
+		
+			$.getJSON("data/noabiertos.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: cerradosIcon});
+				marker.bindPopup('<center><strong>'+feature.properties.NOMBRE+'</strong></center>'+'</br><strong>Cultura</strong></br>'+feature.properties.CULTURA+'</br><strong>Descripción</strong></br>'+feature.properties.DESCRIPCION+'</br><a href="'+feature.properties.LINK+'" target="_blank">Ver ficha completa</a>');
+				return marker;
+			  }
+			}).addTo(noabiertos);
+		  });
+		
+		var agave = new L.LayerGroup();
+		$.getJSON("data/agave.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: agaveIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(agave);
+		  });
+		
+		var ecoturismo = new L.LayerGroup();
+		$.getJSON("data/ecoturismo.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: ecoturismoIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(ecoturismo);
+		  });
+		
+		var cenotes = new L.LayerGroup();
+		$.getJSON("data/cenotes.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: cenotesIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(cenotes);
+		  });	
+		
+		var vidamarina = new L.LayerGroup();
+		$.getJSON("data/vidamarina.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: vidamarinaIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(vidamarina);
+		  });	
 
+		var conventos = new L.LayerGroup();
+		$.getJSON("data/conventos.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: conventoIcon});
+				marker.bindPopup(feature.properties.NOMBRE);
+				return marker;
+			  }
+			}).addTo(conventos);
+		  });	
+		
+		var museo = new L.LayerGroup();				
+		$.getJSON("data/museos.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: museoIcon});
+				marker.bindPopup('<center>'+'<strong>'+feature.properties.NOMBRE+'</strong>'+'</center>'+'</br><strong>Estado</strong></br>'+feature.properties.ESTADO+'</br><strong>Municipio</strong></br>'+feature.properties.MUNICIPIO+'</br><strong>Dirección</strong></br>'+feature.properties.DIRECCION);
+				return marker;
+			  }
+			}).addTo(museo);
+		  });
+
+		var sitios = new L. LayerGroup();
+		$.getJSON("data/sitios.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: tiloIcon, title:feature.properties.NOMBRE});
+				marker.bindPopup('<center><strong>'+feature.properties.NOMBRE+'</strong></center>'+'</br><strong>Cultura</strong></br>'+feature.properties.CULTURA+'</br><strong>Descripción</strong></br>'+feature.properties.DESCRIPCION+'</br><a href="'+feature.properties.LINK+'" target="_blank">Ver ficha completa</a>');
+				return marker;
+			  }
+			}).addTo(sitios);
+		  });
+		
+		//PENDIENTES PENDIENTES 							QUINTANA ROO
+						//PENDIENTES											QUINTANA ROO
+		
+		//L.marker([20.585214,-87.144464], {icon: tiloIcon, title: 'Calica'}).bindPopup('<p><strong><center>	Calica</center></strong><br>	<strong>Cultura</strong><br/> Maya<br><strong>Descripción</strong><br/>Según las investigaciones, el sitio de Calica formó parte del gran asentamiento de P\'ole, se sabe que sus principales actividades eran la agricultura, la pesca y la producción de miel.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMCa23181115"target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([19.95, -88.4], {icon: restosIcon, title: 'La Aguada'}).bindPopup('<p><strong><center>La Aguada</center><br/></p>').addTo(sitios),
+		//L.marker([21.110588, -86.759997], {icon: restosIcon, title: 'Yamil Lu\'um'}).bindPopup('<p><strong><center>Yamil Lu\'um</center><br/></p>').addTo(sitios),
+		
+		//PENDIENTES PENDIENTES						YUCATÁN
+					//PENDIENTES PENDIENTES							YUCATÁN
+		//L.marker([21.204547, -89.269466], {icon: tiloIcon, title: 'Telchac Pueblo'}).bindPopup('<p><strong><center>	Telchac Pueblo</center></strong><br><strong>Cultura</strong><br />Maya <br/> <strong>Descripción</strong><br />El sitio se encuentra ocupado por la cabecera municipal que lleva el mismo nombre, en cuyas calles han sido encontradas estructuras y piezas de cerámica que denotan un uso religioso, administrativo y habitacional.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMTe31237548" target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([20.572997, -88.730264], {icon:tiloIcon, title: 'Chechemi'}).bindPopup('<p><strong><center>	Chechemi</center></strong><br>	<strong>Cultura</strong> <br />Maya<br/> <strong>Descripción</strong><br />  Es un sitio pequeño donde han sido encontrados restos de cerámica y concha. La mayoría de los tepalcates hallados en la zona corresponden al Clásico Tardío, sin embargo, también se han encontrado tepalcates que datan del PreclásicoTardío, el Clásico Terminal y uno del Posclásico Tardío en la superficie. <br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMCh31239717" target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([20.541, -88.663], {icon:tiloIcon, title: 'Yaxuná'}).bindPopup('<p><strong><center>		Yaxuná</center></strong><br>	<strong>Cultura</strong> <br />Maya <br/> <strong>Descripción</strong><br />El sitio de Yaxuná se destaca por su arquitectura monumental en estilo Puuc y la presencia del sacbé más largo de toda el área maya. Muy cerca de Yaxuná se encuentra el cenote Lol-Ha, que sorprende a cualquiera por su majestuosidad y belleza.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMYa31239758" target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([20.332362, -89.647899], {icon: tiloIcon, title: 'Santa Elena'}).bindPopup('<p><strong><center>	Santa Elena</center></strong><br>	<strong>Cultura</strong> <br />Maya<br/> <strong>Descripción</strong><br />Corresponde a un terreno de más de 13 mil metros cuadrados de extensión, en el cual fueron descubiertos tepalcates y piezas de piedra lítica tallada y pulida.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMSa31239722" target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([20.486417, -88.660218], {icon: tiloIcon, title: 'Cenote Albornós'}).bindPopup('<p><strong><center>	Cenote Albornós</center></strong><br><strong>Cultura</strong> <br />Maya<br/> <strong>Descripción</strong><br />La zona se localiza en el interior del cenote y han sido hallados restos de cenizas, conchas y piedras líticas talladas por el hombre.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMCe31239754" target="_blank">Ver ficha completa</a>	</p>').addTo(sitios),
+		//L.marker([20.947984, -89.762475], {icon:tiloIcon, title: 'Oxcum'}).bindPopup('<p><strong><center>	Oxcum</center></strong><br>	<strong>Cultura</strong> <br />No determinada<br/> <strong>Descripción</strong><br />Este sitio corresponde a un conjunto de montículos clasificados por Silvia Garza Tarazona González y Edward B. Kurjack en el Atlas Arqueológico del Estado de Yucatán.<br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMOx31239460" target="_blank">Ver ficha completa</a></p>').addTo(sitios),
+		//L.marker([21.151196, -87.958143], {icon: tiloIcon, title: 'Kancabchén'}).bindPopup('<p><strong><center>	Kancabchén</center></strong><br><strong>Cultura</strong> <br />Maya <br/> <strong>Descripción</strong><br />Ubicado en el municipio de Yaxcabá, es un asentamiento maya que fue constantemente ocupado desde del año 800 a. n. e. hasta después de 1521, año en que los españoles arribaron a México. <br /><a href="http://nemachtilo.mx/busqueda.php?c=NEMKa31239718" target="_blank">Ver ficha completa</a>	</p>').addTo(sitios),
 	
+		var restos = new L.LayerGroup();
+		
+		L.polygon([[19.774780712347855,-99.24615055529596],           [19.78457111856715,-99.2181143920316],            [19.771220564631747,-99.15047158542555],            [19.764545287664046,-99.09706936968394],            [19.75386484451572,-99.07481844645827],       [19.769440490773693,-99.03165165540047],    [19.75252978912218,-98.99738523363293], [19.72627369971589,-98.97824943965885],  [ 19.70713790574181,-98.99249003052329],  [19.68399694558711, -99.00094538134904],  [ 19.663526096219492,  -99.02809150768431],            [19.633932368329347,-99.02786899845205],          [19.603003585045663, -99.00317047367156],            [19.58965303111026,-98.96489888572341],            [19.543371110800862,-98.94887822100091],            [19.485741219646368, -98.93953283324613],            [19.431893985440244,-98.93886530554937],            [19.42010099613064, -98.95243836871704],            [19.42744380079511,-98.98848486434262],            [19.406082914498462,-98.99671770593609],            [19.379604315859915, -98.9771368934975],            [19.36224859574389,-98.99471512284579],            [19.37381907582124,-99.02675645229075],            [19.352458189524597,-99.05612767094861],            [19.36714379885354,-99.09751438814837],            [19.358688448027785,-99.13667601302555],            [19.334212432479546,-99.13845608688361],            [19.313741583111927,-99.08994907425163],            [19.29104564142174,-99.06102287405827],            [19.301726084570063,-99.00050036288444],            [19.31819176775706,-98.97379925501365],            [19.295940844531387,-98.9143892900011],            [19.216950067080244,-98.99048744743288],            [19.2320806948737,-99.02786899845202],            [19.269462245892832, -99.05279003246477],            [19.24988143345424,-99.15036033080935],            [19.288598039866912,-99.17528136482211],            [19.324199517027992,-99.15080534927385],            [ 19.370926455801907,-99.1819566417898],            [19.41542830225324, -99.23936402371201],            [19.51377738291071, -99.23713893138944],            [19.48173605346574,-99.14769022002224],            [19.568069635581352,-99.06002158251309],            [19.621471851322966,-99.07515221030654],            [19.670423882419453,-99.13923486919647],            [19.706470378045044,-99.10674852128699],            [19.73450654130939,-99.12232416754496],            [19.747857095244793,-99.22022822973793],            [19.762542704573736,-99.23802896831846],            [19.774780712347855, -99.24615055529596],], {title: 'Antigua extensión del lago de Texcoco', color: 'navy', fillOpacity: .15, stroke: false}).bindPopup('Antigua extensión del lago de Texcoco').addTo(restos),		
+		L.polygon([[19.419082736087432, -99.12079811096191],            [19.421187369168102, -99.1435432434082, ],[19.453320110370345, -99.13719177246094,],            [19.450325640037367, -99.11581993103027],                       ], {title: 'Isla', color: 'sienna', fillOpacity: .30, stroke: false}).bindPopup('Isla').addTo(restos),		
+		L.polygon([[19.432833187311026, -99.13093149662018],            [19.436842251656344, -99.13042724132538],            [19.43732029751888, -99.13378536701202],            [19.43328595095505,-99.13431644439697],            [19.432833187311026, -99.13093149662018],], {title: 'Centro ceremonial de Tenochtitlan', color: 'yellow', fillOpacity: .35, stroke: false}).bindPopup('Centro ceremonial de Tenochtitlan').addTo(restos),		
+		L.marker ([19.434156, -99.132662], {icon:restosIcon}).bindPopup('<strong><center>Catedral</center></strong><br><br><br><center><img src="img/CA-01.jpg" width=250px height= 300px></center>').addTo(restos),
+		L.marker ([19.429098, -99.132565], {icon:restosIcon}).bindPopup('<strong><center>Museo de la Ciudad de México</center></strong><br>Cabeza de Quetzalcóatl<br><br><center><img src="img/CQ-01.jpg" width=250px height= 300px></center>').addTo(restos),
+		L.marker ([19.433844, -99.131533], {icon:restosIcon}).bindPopup('<strong><center>Museo de Arte de la SHCP</center></strong><br>Restos de las escalinatas del Templo de Tezcatlipoca<br><br><center><img src="img/PA-02.jpg" width=250px height= 300px></center>').addTo(restos),
+		L.marker ([19.433677, -99.131533], {icon:restosIcon}).bindPopup('<strong><center>Museo de Arte de la SHCP</center></strong><br>Restos de las escalinatas del Templo de Tezcatlipoca<br><br><center><img src="img/PA-01.jpg" width=300px height= 250px></center>').addTo(restos),
+		L.marker ([19.425262, -99.132637], {icon:restosIcon}).bindPopup('Templo Ehécatl-Quetzalcóatl').addTo(restos),
+		L.marker ([19.432063, -99.131388], {icon:restosIcon}).bindPopup('<strong><center>Palacio Nacional</center></strong> <br> Restos de las columnas que conformaron las casas de Hernán Cortés <br><br><center><img src="img/PN-01.jpg" width=250px height= 300px></center>').addTo(restos),
+		L.marker ([19.432322, -99.131135], {icon:restosIcon}).bindPopup('<strong><center>Palacio Nacional</center></strong> <br>  <br><br><center><img src="img/PN-02.jpg" width=300px height= 250px></center>').addTo(restos),
+		L.marker ([19.435603, -99.131840], {icon:restosIcon}).bindPopup('Palacio del Marqués del Apartado').addTo(restos),
+		L.marker ([19.435770, -99.132678], {icon:restosIcon}).bindPopup('Museo de la Caricatura').addTo(restos),
+		L.marker ([19.434289, -99.130643], {icon:restosIcon}).bindPopup('<strong><center>Palacio de la Autonomía</center></strong><br>	<br><br><center><img src="img/PAu-01.jpg" width=300px height= 250px></center>').addTo(restos),
+		L.marker ([19.434500, -99.130643], {icon:restosIcon}).bindPopup('<strong><center>Palacio de la Autonomía</center></strong><br>	<br><br><center><img src="img/PAu-02.jpg" width=300px height= 250px></center>').addTo(restos),
+		L.marker ([19.426119, -99.137077], {icon:restosIcon}).bindPopup('Museo de la Charrería').addTo(restos),
+		L.marker ([19.436332, -99.131529], {icon:restosIcon}).bindPopup('Repúlica de Argentina').addTo(restos),		
+		L.marker([19.435, -99.1327], {icon: restosIcon}).bindPopup('Centro Cultural de España en México').addTo(restos),
+		L.marker ([19.435011, -99.132219], {icon:restosIcon}).bindPopup('Casa de las Ajaracas').addTo(restos);
+		
 		var areasnaturales = new L.LayerGroup();		
-		$.getJSON("data/ANP.geojson",function(data){
+		$.getJSON("data/jsonlago.geojson",function(data){
 			L.geoJson(data, {
 			style: function(feature) {
 				var fillColor,
@@ -137,7 +274,61 @@
 			onEachFeature: function (feature, layer) {layer.bindPopup(feature.properties.NOMBRE);}
 			}).addTo(areasnaturales);
 		  });		
+		L.polygon([[19.06346162835283,-89.58455750575547],[18.897422057979067,-89.58289711005173],[18.90240324509028,-90.04780790709826],[18.983762634573424,-90.03950592857957],[18.99870619590706,-90.17399798058231],[19.055159649834142,-90.16735639776736],[19.040216088500504,-89.9564861433927],[19.071763606871517,-89.94984456057774],[19.06346162835283,-89.58455750575547],], {color: '#6B8E23', fillOpacity: .25, stroke: false}).bindPopup('Zona Sujeta a Conservación Ecológica Balam-kin').addTo(areasnaturales),
+		L.polygon([[18.906731060916613,-90.0456408940483],[18.89716909423811,-89.72584623068941],[18.51332633764761,-89.7271342415929],[18.513994754197334,-89.70440807890218],[18.415705151186,-89.71265749697983],[18.415358071012427,-90.02882475187536],[17.817021031275054,-90.12913958119414],[17.818415486637498,-90.27952421033912],[18.195436689724424,-90.25567376459368],[18.19751131283374,-90.4257928595577],[18.510779402340646,-90.44031522132292],[18.481734678810202,-90.09385316206694],[18.906731060916613,-90.0456408940483],], {color: 'green',fillOpacity: .25, stroke: false}).bindPopup('Zona Sujeta a Conservación Ecológica Balam-kú').addTo(areasnaturales);
 
+		var pueblo = new L.LayerGroup();
+		$.getJSON("data/pueblosMagicos.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: puebloIcon});
+				marker.bindPopup(feature.properties.Name);
+				return marker;
+			  }
+			}).addTo(pueblo);
+		  });
+				
+		var casascultura = new L.LayerGroup();
+		$.getJSON("data/casascultura.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: casascIcon});
+				marker.bindPopup('<center><strong>'+feature.properties.NOMBRE+'</strong></center></br><strong>Estado</strong></br>'+feature.properties.ESTADO+'</br><strong>Municipio</strong></br>'+feature.properties.MUNICIPIO+'</br><strong>Dirección</strong></br>'+feature.properties.DIRECCION);
+				return marker;
+			  }
+			}).addTo(casascultura);
+		  });
+		//REVISAR 							UBICACIONES								REVISAR										UBICACIONES
+		//L.marker([16.10611,-97.144166], {icon:casascIcon}).bindPopup('<p><strong><center>Casa del Pueblo de Santos Reyes Nopala</center></strong><br><strong>Estado</strong><br>Oaxaca<strong><br>Municipio</strong><br>Santos Reyes Nopala<strong><br>Dirección</strong><br></p>').addTo(casascultura),
+		//L.marker([28.347222,-100.854167], {icon:casascIcon}).bindPopup('<p><strong><center>Casa de Cultura de Allende</center></strong><br><strong>Estado</strong><br>Coahuila de Zaragoza<strong><br>Municipio</strong><br>Allende<strong><br>Dirección</strong><br>Calle Matamoros Nte. esq. Guerrero.</p>').addTo(casascultura),
+		//L.marker([21.610277,-102.602778], {icon:casascIcon}).bindPopup('<p><strong><center>Casa de la Cultura Tepusco</center></strong><br><strong>Estado</strong><br>Jalisco<strong><br>Municipio</strong><br>Villa Hidalgo<strong><br>Dirección</strong><br>Calle Ávila Camacho s/n. Colonia Centro.</p>').addTo(casascultura),
+		//L.marker([17.093055,-96.064444], {icon:casascIcon}).bindPopup('<p><strong><center>Casa del Pueblo de Santa María Tlahuitoltepec 2</center></strong><br><strong>Estado</strong><br>Oaxaca<strong><br>Municipio</strong><br>Santa María Tlahuitoltepec<strong><br>Dirección</strong><br></p>').addTo(casascultura);
+		
+		var hospitales = new L.LayerGroup();
+		$.getJSON("data/hospitales.geojson",function(data){
+			L.geoJson(data,{
+			  pointToLayer: function(feature,latlng){
+				var marker = L.marker(latlng,{icon: hospitalIcon});
+				marker.bindPopup('<center>'+'<strong>'+feature.properties.NOMBRE+'</strong>'+'</center>'+'</br><strong>Dirección</strong></br>'+feature.properties.DIRECCION+'</br><strong>Teléfono</strong></br>'+feature.properties.TELEFONO);
+				return marker;
+			  }
+			}).addTo(hospitales);
+		  });
+
+		var regiones = new L.LayerGroup();
+		$.getJSON("data/regiones.geojson",function(data){
+			L.geoJson(data, {
+			style: function(feature) {
+				switch (feature.properties.color) {
+					case 1: return {color: "#df2828", stroke: null, fillOpacity: .3};
+					case 2: return {color: "#df7828", stroke: null, fillOpacity: .3};
+					case 3: return {color: "#73ae3b", stroke: null, fillOpacity: .3};
+					case 4: return {color: "#027782", stroke: null, fillOpacity: .3};
+				}
+			},
+			onEachFeature: function (feature, layer) {layer.bindPopup(feature.properties.nombre);}
+			}).addTo(regiones);
+		  });
 		  
 	    var mbAttr = '' +
 				'<a href="http://nemachtilo.mx"> Nemachtilo</a>' +
@@ -164,12 +355,46 @@
 		};
 
 		var overlays = {
+			"Zonas arqueológicas": sitios,
+			"Propiedad privada": privados,
+			"Sitios destruidos": desaparecidos,
+			"No abiertos al público": noabiertos,
+			"Ventanas arqueológicas" : restos,
+			"Pueblos mágicos": pueblo,
+			"Museos": museo,
+			"Conventos": conventos,
+			"Haciendas henequeneras": agave,
+			"Casas de cultura": casascultura,
+			"Cenotes": cenotes,
+			"Vida marina": vidamarina,
+			"Ecoturismo": ecoturismo,
 			"Áreas Naturales Protegidas": areasnaturales,
+			"Artesanías": artesanias,
+			"Fortalezas": fortalezas,
+			"Regiones": regiones,
+			"Hospitales": hospitales
 		};
 		
 		var mcg = L.markerClusterGroup.layerSupport({maxClusterRadius: 80}).addTo(map);
 		
 		mcg.checkIn([
+          
+			sitios,
+			privados,
+			desaparecidos,
+			noabiertos,
+			restos,
+          	pueblo,
+			museo,
+			conventos,
+			agave,
+			hospitales,
+			casascultura,
+			cenotes,
+			artesanias,
+			fortalezas,
+			ecoturismo,
+			museo,
 			areasnaturales        
 		]);  
 		
