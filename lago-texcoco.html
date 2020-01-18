@@ -258,7 +258,7 @@
 		L.marker ([19.435011, -99.132219], {icon:restosIcon}).bindPopup('Casa de las Ajaracas').addTo(restos);
 		
 		var areasnaturales = new L.LayerGroup();		
-		$.getJSON("data/jsonlago.geojson",function(data){
+		$.getJSON("data/ANP.geojson",function(data){
 			L.geoJson(data, {
 			style: function(feature) {
 				var fillColor,
