@@ -316,7 +316,7 @@
 		  });
 
 		var regiones = new L.LayerGroup();
-		$.getJSON("data/regiones.geojson",function(data){
+		$.getJSON("data/jsonlago.geojson",function(data){
 			L.geoJson(data, {
 			style: function(feature) {
 				switch (feature.properties.color) {
