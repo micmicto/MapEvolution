@@ -271,7 +271,7 @@
 				  else if ( tipoanp > 0 ) fillColor = "#31884d";
 				  return { color: "#999", weight: 1, fillColor: fillColor, fillOpacity: .6 };
 			},
-			onEachFeature: function (feature, layer) {layer.bindPopup(feature.properties.NOMBRE);}
+			onEachFeature: function (feature, layer) {layer.bindPopup('Nos vamos a ahogar');}
 			}).addTo(areasnaturales);
 		  });		
 		L.polygon([[19.06346162835283,-89.58455750575547],[18.897422057979067,-89.58289711005173],[18.90240324509028,-90.04780790709826],[18.983762634573424,-90.03950592857957],[18.99870619590706,-90.17399798058231],[19.055159649834142,-90.16735639776736],[19.040216088500504,-89.9564861433927],[19.071763606871517,-89.94984456057774],[19.06346162835283,-89.58455750575547],], {color: '#6B8E23', fillOpacity: .25, stroke: false}).bindPopup('Zona Sujeta a Conservación Ecológica Balam-kin').addTo(areasnaturales),
